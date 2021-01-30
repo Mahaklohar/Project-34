@@ -4,8 +4,8 @@ class Monster{
             density: 1,
             frictionAir: 0.04
         }
-        this.image1 = loadImage("Image/Monster-01.png");
-        this.image2 = loadImage("Image/Monster-02.png");
+        this.image1 = loadImage("Monster-01.png");
+        this.image2 = loadImage("Monster-02.png");
 
         this.body = Bodies.circle(x, y, 120, options);
         this.radius = 120;
