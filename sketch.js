@@ -9,7 +9,7 @@ var back
 
 function preload() {
 //preload the images here
-back = loadImage("Image/GamingBackground.png");
+back = loadImage("GamingBackground.png");
 
 }
 
