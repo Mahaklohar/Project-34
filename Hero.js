@@ -5,7 +5,7 @@ class Hero{
             frictionAir: 1.0
         }
 
-        this.image = loadImage("Image/Superhero-01.png"); 
+        this.image = loadImage("Superhero-01.png"); 
         this.body = Bodies.circle(x, y, 100, options);
         this.radius = 100;
 
